@@ -4,7 +4,7 @@
 
 DEFINITION
 
-I have used to assemble the project with Vite + React, TypeScript, Vitest, Testing Library...
+I have used to assemble the project with Vite + React.
 
 I decided to use vite, for its speed and lightness. It is one of the options recommended by the react official documentation.
 
