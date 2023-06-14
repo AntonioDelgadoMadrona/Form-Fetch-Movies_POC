@@ -1,0 +1,80 @@
+.App {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 80px;
+  background-color: darkcyan;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  width: 60vw;
+  min-height: 70vh;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.search {
+  margin-bottom: 50px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.movies {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+.movie {
+  text-align: center;
+  width: 100%;
+}
+
+.movie h3,
+.movie p {
+  margin: 0;
+}
+
+.movie img {
+  border-radius: 8px;
+  margin-top: 16px;
+  width: max-content;
+}
+
+footer {
+  width: 60vw;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  height: 3em;
+  padding: 1.5em;
+}
